@@ -5,6 +5,7 @@ Features:
  * Assembly: Display auxiliary data in the assembly output.
  * Assembly: Add ``CREATE2`` (EIP86), ``STATICCALL`` (EIP214), ``RETURNDATASIZE`` and ``RETURNDATACOPY`` (EIP211) instructions.
  * AST: export all attributes to JSON format.
+ * Type Checker: Warn about type inference from literal numbers.
  * Inline Assembly: Present proper error message when not supplying enough arguments to a functional
    instruction.
  * Inline Assembly: introduce ``keccak256`` as an opcode. ``sha3`` is still a valid alias.
